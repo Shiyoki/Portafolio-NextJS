@@ -1,7 +1,6 @@
 import { Container, Heading, SimpleGrid} from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-
 import vendeCoche from '../public/images/works/vendetucoche.jpg'
 import indigo from '../public/images/works/indigo.jpg'
 import todoapp from '../public/images/works/todoaa.jpg'
