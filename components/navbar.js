@@ -17,10 +17,10 @@ import {HamburgerIcon} from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 
 const LinkItem = ({ href, path, children}) =>{
-    const active = path = href
+    const active = path === href
     const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
     return(
-        <NextLink href={href}>
+        <NextLink href={href} passHref>
             <Link
             p={2}
             bg={active ? 'glassTeal' : undefined}
