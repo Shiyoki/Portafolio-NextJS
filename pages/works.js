@@ -6,6 +6,7 @@ import indigo from '../public/images/works/indigo.jpg'
 import todoapp from '../public/images/works/todoaa.jpg'
 import wideokat from '../public/images/works/wideologin.jpg'
 import pong from '../public/images/works/pong.jpg'
+import fluent from '../public/images/works/fluent.jpg'
 
 const Works = () =>{
     return(
@@ -38,6 +39,11 @@ const Works = () =>{
                 <Section>
                     <WorkGridItem id="pong" title="Pong" thumbnail={pong}>
                         Pong project
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem id="fluent" title="FluentUI Dashboard" thumbnail={fluent}>
+                        FluentUI Dashboard
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
