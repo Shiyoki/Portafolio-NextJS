@@ -17,6 +17,11 @@ const Works = () =>{
 
             <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section>
+                    <WorkGridItem id="dashboard" title="FluentUI Dashboard" thumbnail={fluent}>
+                        FluentUI Dashboard
+                    </WorkGridItem>
+                </Section>
+                <Section>
                     <WorkGridItem id="landing" title="Landing Page" thumbnail={vendeCoche}>
                         Landing page for (VenderTuCoche.com)
                     </WorkGridItem>
@@ -39,11 +44,6 @@ const Works = () =>{
                 <Section>
                     <WorkGridItem id="pong" title="Pong" thumbnail={pong}>
                         Pong project
-                    </WorkGridItem>
-                </Section>
-                <Section>
-                    <WorkGridItem id="dashboard" title="FluentUI Dashboard" thumbnail={fluent}>
-                        FluentUI Dashboard
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
