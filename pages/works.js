@@ -42,7 +42,7 @@ const Works = () =>{
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="fluent" title="FluentUI Dashboard" thumbnail={fluent}>
+                    <WorkGridItem id="dashboard" title="FluentUI Dashboard" thumbnail={fluent}>
                         FluentUI Dashboard
                     </WorkGridItem>
                 </Section>
